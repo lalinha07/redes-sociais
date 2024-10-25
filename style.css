@@ -5,7 +5,7 @@
     --cor-fundo: #99765bcc;
     --cor-secundaria:#c5bdaa;
     --cor-vermelho:#7a959e;
-    --font:"Nunito Sans", sans-serif;
+    --font:"Embed code", sans-serif;
 }
 body{
     background-color: var(--cor-fundo);
