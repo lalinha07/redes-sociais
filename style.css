@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+ 
 :root{
-    --cor-texto: #1b1d79;
-    --cor-fundo: #fcf09f;
-    --cor-secundaria:#a9d3a0;
-    --cor-vermelho:#ce76c6;
+    --cor-texto: #31331faf;
+    --cor-fundo: #99765bcc;
+    --cor-secundaria:#c5bdaa;
+    --cor-vermelho:#7a959e;
     --font:"Nunito Sans", sans-serif;
 }
 body{
