@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
  
 :root{
-    --cor-texto: #31331faf;
+    --cor-texto: #5b5e3faf;
     --cor-fundo: #99765bcc;
     --cor-secundaria:#c5bdaa;
     --cor-vermelho:#7a959e;
-    --font:"Embed code", sans-serif;
+    --font:"Nunito Sans", sans-serif;
 }
 body{
     background-color: var(--cor-fundo);
