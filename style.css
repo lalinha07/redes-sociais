@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-    :root{
-        --cor-texto:#4eb3de;
-        --cor-fundo: #8de0a6;
-        --cor-segundaria:#fcf09f;
-        --cor-terciaria:#f27c7c;
-        --font: "Nunito Sans", sans-serif;
-    }
-    body{
-        background-color: var(--cor-fundo);
-        color: var(--cor-texto);
-        font-family: var(--font);
-    }
+
+:root{
+    --cor-texto: #1b1d79;
+    --cor-fundo: #fcf09f;
+    --cor-secundaria:#a9d3a0;
+    --cor-vermelho:#ce76c6;
+    --font:"Nunito Sans", sans-serif;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font);
+}
+header{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+}
+h1{
+    font-size:2rem;
+    color:var(--cor-texto);
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
