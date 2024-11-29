@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root{
-    --cor-texto: #921A40;
-    --cor-fundo: #C75B7A;
-    --cor-secundaria: #D9ABAB;
-    --cor-rosa: #F4D9D0;
+    --cor-texto: #315196;
+    --cor-fundo: #a15e67c5;
+    --cor-secundaria: #e6b7b7;
+    --cor-rosa: #362168;
     --cor-preta: #000000;
     --font: "Updock", cursive;
 
