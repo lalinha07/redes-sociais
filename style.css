@@ -14,7 +14,7 @@
   }
   header{
       background-color: var(--cor-secundaria);
-      text-align: center;
+      text-align: center; 
   }
   h1{
       font-size:2rem;
