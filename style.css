@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Updock&display=swap');
+
 :root{
-    --cor-texto: #5b5e3faf;
-    --cor-fundo: #99765bcc;
-    --cor-secundaria:#c5bdaa;
-    --cor-vermelho:#7a959e;
-    --font:"Nunito Sans", sans-serif;
+    --cor-texto: #921A40;
+    --cor-fundo: #C75B7A;
+    --cor-secundaria: #D9ABAB;
+    --cor-rosa: #F4D9D0;
+    --cor-preta: #000000;
+    --font: "Updock", cursive;
+
 }
 body{
     background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    color: var(--cor-preta);
     font-family: var(--font);
+    height: 100vh;
+    margin: 0;
 }
 header{
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-texto);
     text-align: center;
+    padding: 1px;
 }
 h1{
     font-size:2rem;
-    color:var(--cor-texto);
+    color: var(--cor-preta);
     font-weight: 700;
 }
 nav{
@@ -28,19 +33,14 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: var(--cor-texto);
+    color: var(--cor-preta);
     margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
 }
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
-    width: 100%;
-    height: 3rem;
-    margin-top: 2rem;
+nav a:hover{
+    text-decoration: none;
+    transform: scale(0.90);
+    transition: transform 0.1s;
 }
 .graficos-container{
     margin: 5rem;
